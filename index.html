@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="image/user-aboutme.jpg" type="image/x-icon">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  <title>Porto | Modif</title>
+</head>
+
+<body>
+
+  <nav>
+    <div class="logo">
+      <h1>Fzn</h1>
+    </div>
+    <ul>
+      <li><a href="#main">Home</a></li>
+      <li><a href="#project">Project</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#portofolio">Portofolio</a></li>
+    </ul>
+    <button>Contact Me</button>
+    <button id="menuButton" onclick="openMenu()">
+      <i class='bx bx-menu'></i>
+    </button>
+  </nav>
+
+  <!-- disini di isi untuk main -->
+  <div class="main" id="main">
+    <div class="left">
+      <h5>Hallo, <span>I am Fauzan</span></h5>
+      <h3>I am <span>Front End Developer</span></h3>
+      <button>Get In Touch</button>
+    </div>
+    <div class="right">
+      <img src="image/fotodewek.png" alt="">
+    </div>
+  </div>
+
+  <div class="project" id="project">
+    <h3>My Project</h3>
+    <div class="project-items">
+      <div class="item">
+        <a href="https://web-weather.surge.sh/" class="to-link">
+          <div class="icon"><i class='bx bx-cloud'></i></div>
+          <h4>Weather App</h4>
+          <p>Weather App With Api</p>
+        </a>
+      </div>
+      <div class="item">
+        <a href="https://list-in-js.surge.sh/" class="to-link">
+          <div class="icon"><i class='bx bx-bookmark-plus'></i></div>
+          <h4>To-Do List </h4>
+          <p>To do list simple</p>
+        </a>
+      </div>
+      <div class="item">
+        <a href="https://stopwatch-simple.surge.sh/" class="to-link">
+          <div class="icon"><i class='bx bx-stopwatch'></i></div>
+          <h4>Stop Watch</h4>
+          <p>Stop Watch Time</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- About  -->
+  <div class="about" id="about">
+    <div class="left">
+      <img src="image/user-aboutme.jpg" alt="">
+    </div>
+    <div class="right">
+      <h3>About Me</h3>
+      <p>
+        Saya Mahasiswa semester awal Prodi S1 Teknik Informatika di Universitas Muhammadiyyah Cirebon. <br>
+        <br>
+        Memiliki minat dengan dunia teknologi dan ingin menjadi seorang FullStack Developer
+      </p>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <footer>
+    <div class="top">
+      <div class="logo">
+        <h1 class="footer-logo">Fzn</h1>
+      </div>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Project</a></li>
+        <li><a href="">About Me</a></li>
+        <li><a href="">Contact Me</a></li>
+      </ul>
+      <div class="social-links">
+        <a href="https://www.instagram.com/zann.7654/?igshid=OGQ5ZDc2ODk2ZA%3D%3D"><i class='bx bxl-instagram'></i></a>
+        <a href="https://github.com/Rizqi-noor-fauzan"><i class='bx bxl-github'></i></a>
+        <a
+          href="https://www.linkedin.com/in/rizqi-noor-fauzan-7425ab279?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bk0OuFFe2RIyGnxEKyBzPGw%3D%3D"><i
+            class='bx bxl-linkedin'></i></a>
+      </div>
+    </div>
+    <div class="separator"></div>
+    <div class="bottom">
+      <p>
+        Made With Fauzan
+      </p>
+      <div class="links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookies Settings</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
